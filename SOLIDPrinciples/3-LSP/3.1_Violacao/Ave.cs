@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SOLIDPrinciples._3_LSP._2._1_Violacao
+namespace SOLIDPrinciples._3_LSP._3._1_Violacao
 {
     public class Ave
     {
