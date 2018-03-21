@@ -45,17 +45,17 @@ namespace SOLIDPrinciples._1_SRP._1._1_Violacao
                 cmd.ExecuteNonQuery();
             }
 
-            //Inserir na fila
-            var produtoParaFila = new ProdutoParaFila();
-            produtoParaFila.ProdutoId = ProdutoId;
-            produtoParaFila.Marketplace = 10;
-            produtoParaFila.DataInsercao = DateTime.Now;
-            
-            new FilaProduto().Inserir(produtoParaFila);
+            //Inserir na fila            
+            InserirNaFila(123);
 
 
             return "Produto cadastrado com sucesso";
           
+        }
+
+        public void InserirNaFila(int produto)
+        {
+            //Logica para inserir na fila
         }
     }
 }

@@ -9,9 +9,4 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="5-DIP\5.1_Violacao\" />
-    <Folder Include="5-DIP\5.2_Solucao\" />
-  </ItemGroup>
-
 </Project>
