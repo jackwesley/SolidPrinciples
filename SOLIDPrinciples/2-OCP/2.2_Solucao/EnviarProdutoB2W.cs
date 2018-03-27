@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLIDPrinciples._2_OCP._2._2_Solucao
 {
-    public class B2W : EnviaMarketplace
+    public class EnviarProdutoB2W : EnviaMarketplace
     {
         public override string Enviar(int produtoId, int businessId)
         {

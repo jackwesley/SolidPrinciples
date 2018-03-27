@@ -25,8 +25,7 @@ namespace SOLIDPrinciples
             ave1.Voar();
 
 
-
-
+            
             Console.ReadKey();
         }
     }

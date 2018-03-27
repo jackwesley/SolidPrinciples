@@ -5,6 +5,7 @@
     {
         public string RegistroTransacao { get; set; }
 
-        public abstract string Enviar(int produtoId, int businessId); //Método abstrato para ser obrigado a fazer o override nos herdeiros
+        //Método abstrato para ser obrigado a fazer o override nos herdeiros
+        public abstract string Enviar(int produtoId, int businessId); 
     }
 }
