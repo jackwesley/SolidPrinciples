@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLIDPrinciples._1_SRP._1._2_Solucao
 {
-    public class ProdutoService
+    public class ProdutoServices
     {
         public string AdicionarProduto(Produto produto)
         {
@@ -15,7 +15,7 @@ namespace SOLIDPrinciples._1_SRP._1._2_Solucao
             repository.AdicionarProduto(produto);
 
 
-            var fila = new FilaProduto();
+            var fila = new FilaProdutoServices();
             fila.Inserir(produto);
 
             return "Produto Cadastrado com sucesso";

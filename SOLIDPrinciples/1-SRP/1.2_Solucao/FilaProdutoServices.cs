@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLIDPrinciples._1_SRP._1._2_Solucao
 {
-    public class FilaProduto
+    public class FilaProdutoServices
     {
         public void Inserir(Produto produto)
         {
