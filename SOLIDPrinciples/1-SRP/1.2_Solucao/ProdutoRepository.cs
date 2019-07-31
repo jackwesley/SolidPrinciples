@@ -29,5 +29,21 @@ namespace SOLIDPrinciples._1_SRP._1._2_Solucao
             }
         }
 
+
+        public void AtualizaProduto(Produto produto)
+        {
+            //codigo de atualizar produtio
+        }
+
+        public void BuscarProduto(Produto produto)
+        {
+            //codigo de deletar produtio
+        }
+
+        public void DeletarProduto(Produto produto)
+        {
+            //codigo de deletar produtio
+        }
+
     }
 }

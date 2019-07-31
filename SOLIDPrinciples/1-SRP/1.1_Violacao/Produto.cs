@@ -31,7 +31,7 @@ namespace SOLIDPrinciples._1_SRP._1._1_Violacao
             using (var cn = new SqlConnection())
             {
                 var cmd = new SqlCommand();
-                cn.ConnectionString = "Connection String";
+                cn.ConnectionString = "ConnectionString";
                 cmd.Connection = cn;
 
                 cmd.CommandType = CommandType.Text;
@@ -45,7 +45,7 @@ namespace SOLIDPrinciples._1_SRP._1._1_Violacao
                 cmd.ExecuteNonQuery();
             }
 
-            //Inserir na fila            
+            //Inserir na fila para envio a outras plataformas          
             InserirNaFila(123);
 
 
