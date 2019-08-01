@@ -4,14 +4,8 @@ using System.Text;
 
 namespace SOLIDPrinciples._4_ISP._4._2_Solucao
 {
-    public interface IMarketplaceWalmart
-    {
-        void EnviaProduto();
-
-        void EnviaEstoque();
-
-        void EnviaPreco();
-
+    public interface IMarketplaceWalmart : IMarketplace
+    {      
         void EnviaUrlDeVideo();
     }
 }

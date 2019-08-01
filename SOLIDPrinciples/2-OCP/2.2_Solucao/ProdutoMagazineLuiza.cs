@@ -4,11 +4,12 @@ using System.Text;
 
 namespace SOLIDPrinciples._2_OCP._2._2_Solucao
 {
-    public class EnviarProdutoB2W : EnviaMarketplace
+    public class ProdutoMagazineLuiza : Marketplace
     {
         public override string Enviar(int produtoId, int businessId)
         {
-            //Logica de envio para Walmart
+            
+            //Logiga de envio para Magazine Luiza
 
             return RegistroTransacao;
         }

@@ -1,7 +1,7 @@
 ﻿namespace SOLIDPrinciples._2_OCP._2._2_Solucao
 {
     
-    public abstract class EnviaMarketplace
+    public abstract class Marketplace
     {
         public string RegistroTransacao { get; set; }
 
