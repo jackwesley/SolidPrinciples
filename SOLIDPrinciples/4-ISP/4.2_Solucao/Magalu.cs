@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SOLIDPrinciples._4_ISP._4._2_Solucao
 {
-    public class CNova : IMarketplaceCNova
+    public class Magalu : IMarketplaceCNova
     {
         public void EnviaProduto()
         {
